@@ -1,0 +1,13 @@
+.App {
+  background-color: #eaeff2;
+  min-height: 100vh;
+}
+.root {
+    padding: 80px 40px;
+}
+.headerText {
+    text-align: center;
+    font-size: 40px;
+    color: #6a7279;
+    font-weight: lighter;
+}

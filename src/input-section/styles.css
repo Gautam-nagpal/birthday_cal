@@ -1,0 +1,55 @@
+.inputSectionRoot {
+    display: flex;
+}
+.jsonInputContainer {
+    width: 60%;
+}
+.inputField {
+    border: 1px solid #cdd3d6;
+    padding: 16px;
+    border-radius: 5px;
+    width: calc(100% - 34px);
+}
+.inputField:focus {
+    outline: none;
+}
+.yearUpdateContainer {
+    margin: 16px 40px;
+}
+.yearLabel {
+    color: #6a7279;
+    font-size: 18px;
+}
+.yearInput {
+    width: 250px;
+    font-size: 22px;
+    margin-top: 12px;
+}
+.updateButton {
+    background-color: #0085f0;
+    color: #b9e7fa;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.updateButton:focus {
+    outline: none;
+}
+.errorMessage {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputSectionRoot {
+      flex-direction: column;
+  }
+  .jsonInputContainer {
+      width: 100%;
+  }
+  .yearUpdateContainer {
+      margin: 24px 0;
+  }
+}
